@@ -1,0 +1,42 @@
+Starting Valhuntir Lite demo container
+Initializing demo case...
+No examiner identity configured. Using OS user 'unknown'.
+Run 'vhir config --examiner <name>' to set your identity.
+Tip: For audit accountability, use individual OS accounts rather than shared ones.
+
+Case initialized: INC-2026-0613114342
+  Name: demo-case
+  Examiner: unknown
+  Path: /tmp/vhir-cases/INC-2026-0613114342
+
+Next steps:
+  1. Copy evidence into: /tmp/vhir-cases/INC-2026-0613114342/evidence/
+  2. Register each file:  vhir evidence register <file>
+  3. If using Claude Code, launch from the case directory
+     to ensure proper sandbox scope:
+       cd /tmp/vhir-cases/INC-2026-0613114342
+
+Listing cases (should show demo-case):
+No examiner identity configured. Using OS user 'unknown'.
+Run 'vhir config --examiner <name>' to set your identity.
+Tip: For audit accountability, use individual OS accounts rather than shared ones.
+
+Case ID                   Status     Name
+-----------------------------------------------------------------
+INC-2026-0613114342       open       demo-case (active)
+
+Show active case status (if any):
+No examiner identity configured. Using OS user 'unknown'.
+Run 'vhir config --examiner <name>' to set your identity.
+Tip: For audit accountability, use individual OS accounts rather than shared ones.
+
+Case: INC-2026-0613114342
+  Name:     demo-case
+  Status:   open
+  Examiner: unknown
+  Path:     /tmp/vhir-cases/INC-2026-0613114342
+  Findings: 0 (0 draft, 0 approved)
+  Timeline: 0 (0 draft, 0 approved)
+  TODOs:    0 open / 0 total
+
+Demo complete. To explore interactively, run a shell in the container.
