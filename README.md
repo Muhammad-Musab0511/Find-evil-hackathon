@@ -790,6 +790,19 @@ installer reuses the existing venv and databases. Lite case data (markdown
 files) does not auto-migrate to Valhuntir case data (structured JSON) — start
 fresh or transfer findings manually.
 
+## Hackathon Demo Assets
+
+If you're here for the FIND EVIL! submission, start with these files:
+
+- [Final Devpost copy](devpost/DEVPOST_FINAL_TEXT.md)
+- [90s demo video](devpost/demo.mp4)
+- [Rendered demo screenshot](screenshots/demo_output.png)
+- [Video script](devpost/VIDEO_SCRIPT.md)
+- [Asset checklist](devpost/ASSETS.md)
+
+The demo image is published from the `hackathon/demo-lite` branch via
+`.github/workflows/publish-image.yml`.
+
 ## Evidence Handling
 
 Never place original evidence on any Valhuntir system. Only use working copies for which verified originals or backups exist. Valhuntir workstations process evidence through AI-connected tools, and any data loaded into these systems may be transmitted to the configured AI provider. Treat all Valhuntir systems as analysis environments, not evidence storage.
